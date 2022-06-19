@@ -18,6 +18,36 @@ h1 {
     font-size: 96px;
 }
 
+@media(max-width: 430px) {
+    .myName {
+        font-size: 70px;
+    }
+
+    .aboutHead {
+        font-size: 70px;
+    }
+
+    .flag {
+        display: none;
+    }
+
+    .appDescription {
+        text-align: center !important;
+    }
+
+    .navigation-links-app {
+        justify-content: center !important;
+    }
+
+    .appHeading {
+        text-align: center !important;
+    }
+
+    .about {
+        padding: 0 20px !important;
+    }
+}
+
 h2 {
     font-size: 48px;
     text-align: center;
